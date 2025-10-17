@@ -12,6 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         {[...Array(50)].map((_, i) => (
           <motion.div
+            suppressHydrationWarning
             key={i}
             className="absolute w-1 h-1 bg-blue-400/30 rounded-full"
             style={{
