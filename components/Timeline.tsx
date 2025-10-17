@@ -8,27 +8,15 @@ import { Calendar, CheckCircle, Users, Trophy } from 'lucide-react';
 const timelineEvents = [
   {
     icon: Calendar,
-    title: 'Registration Opens',
-    date: '1 Nov 2025',
-    description: 'Sign up and form your teams to participate in the challenge.',
+    title: 'Submission through Unstop',
+    date: '18 Oct 2025 - 25 Nov 2025',
+    description: 'Submission round through Unstop platform.',
   },
   {
     icon: CheckCircle,
-    title: 'Idea Submission Deadline',
-    date: '15 Nov 2025',
-    description: 'Submit your innovative ideas and project proposals.',
-  },
-  {
-    icon: Users,
-    title: 'Shortlisting',
-    date: '20 Nov 2025',
-    description: 'Selected teams will be announced and notified.',
-  },
-  {
-    icon: Trophy,
-    title: 'Final Presentation',
-    date: '25 Nov 2025',
-    description: 'Present your ideas to judges and compete for prizes.',
+    title: 'Offline Round',
+    date: '31 Oct 2025',
+    description: 'Final round will be the on-campus round.',
   },
 ];
 

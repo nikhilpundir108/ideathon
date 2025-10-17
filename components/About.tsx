@@ -34,21 +34,11 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              Ideathon 2K25 is a national-level innovation challenge that brings together the brightest minds
-              to solve real-world problems through creative thinking and innovative solutions. This platform
-              empowers students and young professionals to transform their ideas into impactful projects.
+              The MIET Ideathon 2025 aims to encourage innovation and entrepreneurship among students by providing them with a platform to identify, analyze, and solve real-world problems using technology-driven, sustainable, and market-ready solutions.
             </p>
 
             <p className="text-lg text-slate-300 leading-relaxed">
-              We believe in encouraging innovation, creativity, and problem-solving among young minds.
-              Whether you're passionate about technology, sustainability, healthcare, or social impact,
-              Ideathon 2K25 provides the perfect stage to showcase your vision and compete for exciting prizes.
-            </p>
-
-            <p className="text-lg text-slate-300 leading-relaxed">
-              Join us in this journey of innovation and be part of a community that's shaping the future.
-              Connect with like-minded innovators, receive mentorship from industry experts, and turn your
-              ideas into reality.
+              The event will serve as a launchpad for start-up ideas, guiding participants toward prototype development, incubation, and potential funding opportunities. This Ideathon will bring together students from all departments to collaboratively design solutions that improve everyday life, support sustainable growth, and promote digital transformation across various sectors, including Engineering, health, education, agriculture, the environment, governance, and Management.
             </p>
           </motion.div>
 
@@ -62,9 +52,10 @@ export default function About() {
               <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
                 <Sparkles className="w-6 h-6 text-blue-400" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Innovation First</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Vision</h3>
               <p className="text-slate-400">
-                Transform groundbreaking ideas into actionable solutions that make a difference.
+                To cultivate a culture of innovation and entrepreneurship that empowers students to design smart, sustainable, and inclusive solutions for real-world community challenges, driving MIET toward becoming a hub of impactful ideas and startup incubation.
+
               </p>
             </div>
 
@@ -72,21 +63,13 @@ export default function About() {
               <div className="w-12 h-12 bg-cyan-600/20 rounded-lg flex items-center justify-center mb-4">
                 <Target className="w-6 h-6 text-cyan-400" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Real Impact</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Mission</h3>
               <p className="text-slate-400">
-                Focus on solutions that address genuine challenges and create meaningful change.
+                To inspire and empower students to become innovative thinkers and problem-solvers who can address real-world community challenges through creativity, technology, and collaboration. The event aims to foster interdisciplinary teamwork among students from engineering, management, and sciences to design sustainable, scalable, and socially impactful solutions.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-900/30 to-slate-800/30 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-6 hover:border-blue-500/40 transition-all duration-300">
-              <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
-                <Users className="w-6 h-6 text-blue-400" />
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Collaborative Spirit</h3>
-              <p className="text-slate-400">
-                Connect with fellow innovators and build lasting partnerships for the future.
-              </p>
-            </div>
+            
           </motion.div>
         </div>
       </div>

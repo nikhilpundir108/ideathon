@@ -43,7 +43,9 @@ export default function Contact() {
                 <Mail className="w-7 h-7 text-blue-400" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">Email Us</h3>
-              <p className="text-blue-300 font-mono">ideathon@yourcollege.edu</p>
+              <p className="text-blue-300 font-mono">cswd@miet.ac.in </p>
+              <p className="text-blue-300 font-mono">mlsa.community@miet.ac.in </p>
+              <p className="text-blue-300 font-mono">scit@miet.ac.in </p>
               <p className="text-slate-400 text-sm mt-2">
                 Send us your queries and we'll respond within 24 hours
               </p>
@@ -63,7 +65,7 @@ export default function Contact() {
                 <Phone className="w-7 h-7 text-cyan-400" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">Call Us</h3>
-              <p className="text-cyan-300 font-mono">+91 98765 43210</p>
+              <p className="text-cyan-300 font-mono">+91 999XX65455</p>
               <p className="text-slate-400 text-sm mt-2">
                 Available Monday to Friday, 9 AM - 6 PM IST
               </p>
@@ -85,7 +87,7 @@ export default function Contact() {
               </p>
               <div className="bg-white/10 rounded-lg p-4 flex items-center justify-center">
                 <div className="w-32 h-32 bg-white rounded-lg flex items-center justify-center">
-                  <span className="text-slate-800 text-xs">QR Code</span>
+                  <span className="text-slate-800 text-xs">soon...</span>
                 </div>
               </div>
             </div>
@@ -101,11 +103,12 @@ export default function Contact() {
                 <MapPin className="w-7 h-7 text-purple-400" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">Visit Us</h3>
-              <p className="text-slate-300 mb-2">Your College Name</p>
+              <p className="text-slate-300 mb-2">Meerut Institute Of Engineering & Technology</p>
               <p className="text-slate-400 text-sm">
-                College Address Line 1<br />
-                College Address Line 2<br />
-                City, State - PIN Code
+                N.H. 58, Delhi-Roorkee Highway, Baghpat Road
+                Bypass Crossing<br />
+                Meerut - 250005, Uttar Pradesh (India)
+
               </p>
             </div>
           </motion.div>

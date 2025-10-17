@@ -92,7 +92,7 @@ export default function Judging() {
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
                 <div>
                   <h4 className="text-white font-semibold mb-1">Team Size</h4>
-                  <p className="text-slate-400">Teams of 2-4 members are allowed. Solo participation is also welcome.</p>
+                  <p className="text-slate-400">Teams of 2-3 members are allowed. </p>
                 </div>
               </div>
 

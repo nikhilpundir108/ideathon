@@ -84,7 +84,7 @@ export default function Hero() {
               size="lg"
               className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-6 text-lg rounded-full shadow-lg shadow-blue-500/50 hover:shadow-blue-600/60 transition-all duration-300 group"
             >
-              <a href="https://your-registration-link.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://unstop.com/p/ideathon-2k25-meerut-institute-of-engineering-and-technology-miet-meerut-1575882" target="_blank" rel="noopener noreferrer">
                 Register Now
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
