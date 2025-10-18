@@ -63,24 +63,6 @@ export default function Sponsors() {
             </motion.div>
           ))}
         </div>
-
-        {/* Footer / Contact Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-center"
-        >
-          <div className="bg-gradient-to-br from-blue-900/20 to-slate-800/20 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-8 max-w-2xl mx-auto">
-            <p className="text-slate-300 text-lg mb-4">
-              Interested in sponsoring <span className="text-blue-400 font-semibold">Ideathon 2K25</span>?
-            </p>
-            <p className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-semibold transition-colors cursor-pointer">
-              Contact us for partnership opportunities
-              <span className="text-xl">→</span>
-            </p>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

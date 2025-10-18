@@ -100,7 +100,7 @@ export default function Judging() {
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
                 <div>
                   <h4 className="text-white font-semibold mb-1">Eligibility</h4>
-                  <p className="text-slate-400">Open to all undergraduate and postgraduate students across India.</p>
+                  <p className="text-slate-400">Open to all undergraduate and postgraduate students only MIET group of College.</p>
                 </div>
               </div>
 

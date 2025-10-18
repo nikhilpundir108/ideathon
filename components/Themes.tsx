@@ -3,16 +3,16 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Cpu, Heart, Building2, Leaf, Smartphone, Globe,Bike ,Orbit} from 'lucide-react';
+import { Cpu, Heart, Building2, Leaf, Smartphone, Globe, Bike, Orbit } from 'lucide-react';
 
 const themes = [
   {
-    icon: Leaf,
-    title: 'Sustainability & Environment',
-    description: 'Waste reuse, air/water quality monitoring, renewable energy.',
-    color: 'from-green-600 to-emerald-400',
-    bgColor: 'from-green-900/30 to-slate-800/30',
-    borderColor: 'border-green-500/20 hover:border-green-500/40',
+    icon: Building2,
+    title: 'Smart Cities & Public Services',
+    description: 'Waste management, traffic control, civic issue reporting.',
+    color: 'from-cyan-600 to-cyan-400',
+    bgColor: 'from-cyan-900/30 to-slate-800/30',
+    borderColor: 'border-cyan-500/20 hover:border-cyan-500/40',
   },
   {
     icon: Heart,
@@ -23,20 +23,12 @@ const themes = [
     borderColor: 'border-red-500/20 hover:border-red-500/40',
   },
   {
-    icon: Cpu,
-    title: 'Energy & Utilities',
-    description: 'Smart meters, energy optimization, solar trackers.',
-    color: 'from-blue-600 to-blue-400',
-    bgColor: 'from-blue-900/30 to-slate-800/30',
-    borderColor: 'border-blue-500/20 hover:border-blue-500/40',
-  },
-  {
-    icon: Building2,
-    title: 'Smart Cities & Public Services',
-    description: 'Waste management, traffic control, civic issue reporting.',
-    color: 'from-cyan-600 to-cyan-400',
-    bgColor: 'from-cyan-900/30 to-slate-800/30',
-    borderColor: 'border-cyan-500/20 hover:border-cyan-500/40',
+    icon: Leaf,
+    title: 'Sustainability & Environment',
+    description: 'Waste reuse, air/water quality monitoring, renewable energy.',
+    color: 'from-green-600 to-emerald-400',
+    bgColor: 'from-green-900/30 to-slate-800/30',
+    borderColor: 'border-green-500/20 hover:border-green-500/40',
   },
   {
     icon: Smartphone,
@@ -45,14 +37,6 @@ const themes = [
     color: 'from-orange-600 to-yellow-400',
     bgColor: 'from-orange-900/30 to-slate-800/30',
     borderColor: 'border-orange-500/20 hover:border-orange-500/40',
-  },
-  {
-    icon: Globe,
-    title: 'Society & Lifestyle',
-    description: 'Food sharing systems, lost & found platforms, volunteer networks.',
-    color: 'from-purple-600 to-pink-400',
-    bgColor: 'from-purple-900/30 to-slate-800/30',
-    borderColor: 'border-purple-500/20 hover:border-purple-500/40',
   },
   {
     icon: Leaf,
@@ -69,6 +53,22 @@ const themes = [
     color: 'from-red-600 to-pink-400',
     bgColor: 'from-red-900/30 to-slate-800/30',
     borderColor: 'border-red-500/20 hover:border-red-500/40',
+  },
+  {
+    icon: Globe,
+    title: 'Society & Lifestyle',
+    description: 'Food sharing systems, lost & found platforms, volunteer networks.',
+    color: 'from-purple-600 to-pink-400',
+    bgColor: 'from-purple-900/30 to-slate-800/30',
+    borderColor: 'border-purple-500/20 hover:border-purple-500/40',
+  },
+  {
+    icon: Cpu,
+    title: 'Energy & Utilities',
+    description: 'Smart meters, energy optimization, solar trackers.',
+    color: 'from-blue-600 to-blue-400',
+    bgColor: 'from-blue-900/30 to-slate-800/30',
+    borderColor: 'border-blue-500/20 hover:border-blue-500/40',
   },
   {
     icon: Cpu,
