@@ -72,7 +72,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="text-lg md:text-xl text-slate-300 mb-12 max-w-3xl mx-auto"
           >
-            A National-Level Idea Pitching Challenge organized by Your College Name
+            A National-Level Idea Pitching Challenge organized by Meerut Institute of Engineering and Technology (MIET).
           </motion.p>
 
           <motion.div

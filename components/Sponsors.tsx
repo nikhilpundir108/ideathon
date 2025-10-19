@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 // ✅ Replace these with actual logo image paths in your /public folder
 const sponsors = [
-  { name: 'Acic Lab', image: '/' },
+  { name: 'Acic Lab', image: '/ideathon-logo.png' },
   { name: 'Future Labs', image: '/ideathon-logo.png' },
   { name: 'Digital Ventures', image: '/ideathon-logo.png' },
   { name: 'Innovation Hub', image: '/ideathon-logo.png' },
