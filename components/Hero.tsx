@@ -9,6 +9,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]" />
 
+      {/* Floating lights background */}
       <div className="absolute inset-0">
         {[...Array(50)].map((_, i) => (
           <motion.div
@@ -39,23 +40,32 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
+          {/* 🔹 Logos Row */}
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="flex justify-center items-center gap-8 mb-8"
+          >
+            <img src="/miet.png" alt="MIET Logo" className="h-14 md:h-16" />
+            <img src="/cswd.png" alt="cswd Logo" className="h-14 md:h-16" />
+            <img src="/mlsa.png" alt="mlsa Logo" className="h-14 md:h-16" />
+            <img src="/scit.png" alt="scit Logo" className="h-14 md:h-16" />
+          </motion.div>
+
+          {/* 🔹 Replaced Ideathon text with your logo */}
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="inline-flex items-center justify-center w-20 h-20 mb-6 rounded-full bg-gradient-to-br from-blue-500 to-cyan-400 shadow-lg shadow-blue-500/50"
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="flex justify-center mb-6"
           >
-            <Lightbulb className="w-10 h-10 text-white" />
+            <img
+          //    src="/Ideathon.png" // ← Replace with your logo filename
+              alt="Ideathon 2K25 Logo"
+              className="h-40 md:h-56 lg:h-64 object-contain drop-shadow-[0_0_20px_rgba(59,130,246,0.5)]"
+            />
           </motion.div>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6"
-          >
-            Ideathon 2K25
-          </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -85,7 +95,11 @@ export default function Hero() {
               size="lg"
               className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-6 text-lg rounded-full shadow-lg shadow-blue-500/50 hover:shadow-blue-600/60 transition-all duration-300 group"
             >
-              <a href="https://unstop.com/p/ideathon-2k25-meerut-institute-of-engineering-and-technology-miet-meerut-1575882" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://unstop.com/p/ideathon-2k25-meerut-institute-of-engineering-and-technology-miet-meerut-1575882"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Register Now
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
