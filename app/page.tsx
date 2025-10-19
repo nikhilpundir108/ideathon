@@ -7,6 +7,7 @@ import Prizes from '@/components/Prizes';
 import Sponsors from '@/components/Sponsors';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Judging />
       <Prizes />
       <Sponsors />
+      <FAQ/>
       <Contact />
       <Footer />
     </main>
