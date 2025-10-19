@@ -54,18 +54,19 @@ export default function Hero() {
           </motion.div>
 
           {/* 🔹 Replaced Ideathon text with your logo */}
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="flex justify-center mb-6"
-          >
-            <img
-          //    src="/Ideathon.png" // ← Replace with your logo filename
-              alt="Ideathon 2K25 Logo"
-              className="h-40 md:h-56 lg:h-64 object-contain drop-shadow-[0_0_20px_rgba(59,130,246,0.5)]"
-            />
-          </motion.div>
+    <motion.div
+  initial={{ scale: 0 }}
+  animate={{ scale: 1 }}
+  transition={{ duration: 0.5, delay: 0.3 }}
+  className="flex justify-center mb-6"
+>
+  <img
+    src="/Ideathon.png" // ← your logo file in /public
+    alt="Ideathon 2K25 Logo"
+    className="h-52 md:h-72 lg:h-80 object-contain drop-shadow-[0_0_25px_rgba(59,130,246,0.6)]"
+  />
+</motion.div>
+
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
